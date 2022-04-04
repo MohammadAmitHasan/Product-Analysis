@@ -2,7 +2,7 @@ import { ArrowCircleRightIcon } from '@heroicons/react/solid';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
-import bannerImg from '../../img/banner-img.webp'
+import bannerImg from '../../img/banner-img.webp';
 import Card from '../Card/Card';
 
 const Home = () => {
@@ -29,9 +29,9 @@ const Home = () => {
                             MSI Modern 15 A5M AMD Ryzen 5 5500U 15.6 Inch FHD IPS Display Carbon Gray Laptop is a perfect choice for him, who is looking for a mid range laptop having good configurations with stunning design within the price of bdt 65,000.
                         </p>
 
-                        <button className='text-violet-700 bg-violet-100 px-5 py-3 rounded-lg  mt-6 hover:bg-violet-200 flex items-center text-lg'>Explore
+                        <Link to={'/about'} className='w-32 text-violet-700 bg-violet-100 px-5 py-3 rounded-lg  mt-6 hover:bg-violet-200 flex items-center justify-center text-lg'>Details
                             <span><ArrowCircleRightIcon className='w-5 h-5 ml-1'></ArrowCircleRightIcon></span>
-                        </button>
+                        </Link>
                     </div>
                 </div>
 
