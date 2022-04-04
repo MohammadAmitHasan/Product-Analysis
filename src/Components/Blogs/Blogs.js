@@ -8,7 +8,7 @@ const Blogs = () => {
             <div className='border-2 shadow-lg rounded-lg p-5'>
                 <h4 className='text-xl mb-5 font-semibold'>What is context API and what is the purpose of using it.?</h4>
                 <p className='leading-7'>
-                    Context API is a system of react to pass data through the component tree without props drilling. <br />
+                    Context API is a React structure to pass data through the component tree without props drilling. share state across the entire app lightly. <br />
                     In a typical react application we have to pass data from a parent component to a child component using props but when the component tree is large and the data is to be shared to a lot of files it becomes difficult. Example: Sharing local preference, UI theme, current authenticated user etc. <br />
                     Using react context API we can share files very easily in the component tree.
                 </p>
@@ -20,7 +20,7 @@ const Blogs = () => {
                 <p className='leading-7'>
                     The tags which clearly describe the meaning of itself to both browser and the developer are called semantic tags.<br />
                     For example: {`<article>, <aside>, <details>, <figcaption>, <figure>, <footer>, <header>, <main>, <mark>, <nav>, <section>, <summary>, <time>`} etc.<br /><br />
-                    Using these tags provide information about the content of these tags which becomes easy to understand for the browser. So using these tags improves search engine optimization. That is why using semantic tags is very important.
+                    These are semantic tags. Using these tags provide information about the contents inside them. That becomes easy to understand for the browser which improves search engine optimization results. So using semantic tags is very important in modern websites.
                 </p>
             </div>
 
