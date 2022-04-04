@@ -14,7 +14,7 @@ const Home = () => {
     const firstThreeReviews = reviews.slice(0, 3);
 
     return (
-        <div className='container mx-auto mt-8'>
+        <div className='container mx-auto mt-8 p-5'>
 
             {/* Home banner section */}
             <section className='grid grid-cols-5 gap-4'>
@@ -46,7 +46,7 @@ const Home = () => {
                 <h2 className='text-5xl font-semibold text-center'>Customer Reviews({reviews.length})</h2>
 
                 {/* Displaying reviews */}
-                <div className='my-10 grid grid-cols-3 text-left gap-5'>
+                <div className='my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left gap-5'>
                     {
                         firstThreeReviews.map(review => <Card
                             key={review.id}
