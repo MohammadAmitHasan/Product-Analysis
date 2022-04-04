@@ -1,0 +1,38 @@
+[
+    {
+        "id": "r1",
+        "name": "Akbar Alauddin",
+        "review": "Good price; big screen; powerful processor; beautiful design; expandable RAM. So it is a nice laptop and I suggest it.",
+        "rating": "5 Out of 5"
+    },
+    {
+        "id": "r2",
+        "name": "Md Hasib",
+        "review": "What A Great Laptop It Is!! Purchased It Two Days Ago. Its A Good Laptop For Those Who Wants A Very Fast Laptop For Every Kinds Of Works. It Is So Fast Cz Of 512gb Of Ssd. Battery Backup Is Good Enough For Me. I am Satisfied Using This Laptop.",
+        "rating": "5 Out of 5"
+    },
+    {
+        "id": "r3",
+        "name": "Khandaker Masud",
+        "review": "Stunning design with thin bezel and the performance is good as well. I am using it for a month. Overall a good product.",
+        "rating": "5 Out of 5"
+    },
+    {
+        "id": "r4",
+        "name": "Shekh Tanvir Ahmed",
+        "review": "The Modern 15 is not too heavy at 1.6kgs and 16.9 mm high, it is no Ultrabook, but it comes quite close, the weight moves to 1.8kgs with its charger which does add more heft to it. Very comfortable to use.",
+        "rating": "4.8 Out of 5"
+    },
+    {
+        "id": "r5",
+        "name": "Ridita Siddika",
+        "review": "Most of the build is metal which does add some heft to the device. There is no flex to the device however the surface is a fingerprint magnet. The speakers are oddly placed under the laptop and cause the entire chassis to vibrate.",
+        "rating": "4.5 Out of 5"
+    },
+    {
+        "id": "r6",
+        "name": "Zikrullah Hasan",
+        "review": "I do appreciate the thin bezels which we do not see with other machines. Another thing we noticed was that the edges are curved and not sharp so that is a huge plus.",
+        "rating": "5 Out of 5"
+    }
+]
