@@ -5,7 +5,7 @@ import useChartData from '../../hooks/useChartData';
 const MyBarChart = () => {
     const [chartData, setChartData] = useChartData([]);
     return (
-        <div style={{ width: '100%', height: 300 }}>
+        <div className='w-full h-80'>
             <ResponsiveContainer>
                 <BarChart data={chartData}>
                     <CartesianGrid strokeDasharray="3 3" />
